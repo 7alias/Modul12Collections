@@ -5,6 +5,16 @@ public class ShipRun {
     public static void main(String[] args) {
         Queue<String> keywords = new LinkedList<>();
         keywords.add("Java");
+        keywords.add("Java");
+        keywords.add("Java");
+        keywords.add("Java");
+        keywords.add("Java");
+        keywords.add("Vasja");
+        keywords.add("Vasja");
+        keywords.add("Vasja");
+        keywords.add("Vasja");
+        keywords.add("Vasja");
+        keywords.add("Vasja");
         printList(keywords);
     }
 

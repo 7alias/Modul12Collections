@@ -34,12 +34,14 @@ public class Main {
         List<String> list = new ArrayList<>(queue);
 
         int size = list.size(); // 5
+        System.out.println(size);
 
         list.add(null);
 
         int newSize = list.size(); // 6
 
-        String elementAtIndex8 = list.get(0); // java.lang.IndexOutOfBoundsException: Index 8 out of bounds for length 5
-        System.out.println(elementAtIndex8);
+        String elementAtIndex0 = list.get(0); // java.lang.IndexOutOfBoundsException: Index 8 out of bounds for length 5
+        System.out.println(elementAtIndex0);
+        System.out.println(newSize);
     }
 }
